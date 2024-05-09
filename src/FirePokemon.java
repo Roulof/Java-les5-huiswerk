@@ -2,13 +2,15 @@ import java.util.*;
 
 public class FirePokemon extends Pokemon {
 
-    private static final String type = "fire";
-
     private static final List<String> attacks = Arrays.asList("Inferno", "PyroBall", "FireLash", "FlameThrower");
 
     public FirePokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, "fire");
     }
+
+
+
+
 
     public void inferno(Pokemon name, Pokemon enemy){
         System.out.println(name.getName() + " performed Inferno on " + enemy.getName());
