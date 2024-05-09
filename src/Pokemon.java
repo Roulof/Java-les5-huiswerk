@@ -1,3 +1,5 @@
+import java.util.*;
+
 public abstract class Pokemon {
     private final String name;
     private final int level;
