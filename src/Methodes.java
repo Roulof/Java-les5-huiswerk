@@ -15,7 +15,6 @@ public class Methodes {
     void surf(Pokemon name, Pokemon enemy);
 
     void fireLash(Pokemon name, Pokemon enemy);
-
     public void leafStorm(Pokemon name, Pokemon enemy);
 
     void hydroPump(Pokemon name, Pokemon enemy);
